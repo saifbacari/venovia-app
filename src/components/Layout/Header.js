@@ -9,13 +9,16 @@ const Header = props => {
             <h1>Venovia</h1>
         <button>Pré-commander</button>    
         </header>
-        <div className={classes['main-image']}>
+        <div id="banner" className={classes['main-image']}>
             <img src={headerImage} alt='immage banner'/>
-            <h1>La gestion de vos médicaments n’est plus un problème</h1>
-            <h2>Votre vie. Votre santé. Notre solution.</h2>
-            <ul>La fin de l’oubli de médicaments</ul>
-            <ul>La fin des mauvais dosages</ul>
-            <ul>La fin des problèmes de renouvellement d’ordonnance</ul>
+            <div className={classes['banner-text']}>
+                <h1>La gestion de vos médicaments n’est plus un problème</h1>
+                <h2>Votre vie. Votre santé. Notre solution.</h2>
+                <ul>La fin de l’oubli de médicaments</ul>
+                <ul>La fin des mauvais dosages</ul>
+                <ul>La fin des problèmes de renouvellement d’ordonnance</ul>
+            </div>
+         
         </div>
     </Fragment>
 }
