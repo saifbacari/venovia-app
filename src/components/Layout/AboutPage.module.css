@@ -1,0 +1,9 @@
+.banner-image-text {
+    display: flex; 
+    justify-content: space-between ;  
+    height: 480px;
+    overflow: hidden;
+   
+   width: auto;
+   }
+
